@@ -75,11 +75,9 @@ $(document).ready(function() {
 
 // do you want to stay close to earth?
       if (Q8 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepVenus, stepEarth, stepMars += 1;
       } else if (Q8 === 2) {
-        stepUranus += 1;
-      } else if (Q8 === 3) {
-        stepNeptune += 1;
+        stepUranus, stepJupiter, stepNeptune, stepSaturn, stepMercury += 1;
       }
 
 // close to kuiper belt?

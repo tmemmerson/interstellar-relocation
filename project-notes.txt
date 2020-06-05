@@ -77,7 +77,63 @@ small mars
 small uranus
 small neptune
 
-do you like stormy weather?
-
-
 do you like long days?
+yes venus
+yes mercury
+
+no mars
+no earth
+no uranus
+no neptune
+no saturn
+no jupiter
+
+
+would you like to stay close to your home-planet earth?
+yes earth
+yes venus
+yes mars
+
+no mercury
+no jupiter
+no saturn
+no uranus
+no neptune
+
+woud you like to live near the Main Asteroid Belt?
+yes jupiter
+yes mars
+
+no earth
+no venus
+no mercury
+no saturn
+no uranus
+no neptune
+
+would you like to live near the Kuiper Belt?
+yes neptune
+yes uranus
+
+no earth
+no venus
+no mercury
+no saturn
+no jupiter
+no mars
+
+would you like hot days, cold days, or similar to earth?
+
+similar earth
+similar mars
+
+hot mercury
+hot venus
+
+cold jupiter
+cold saturn
+cold uranus
+cold neptune
+
+
+

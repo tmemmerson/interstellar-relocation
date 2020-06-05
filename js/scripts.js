@@ -122,6 +122,7 @@ $(document).ready(function() {
 
       };
 
+
   $("button#reset").click(function() {
     $("#mercury").hide();
     $("#venus").hide();

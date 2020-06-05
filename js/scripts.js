@@ -82,11 +82,9 @@ $(document).ready(function() {
 
 // close to kuiper belt?
       if (Q9 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepNeptune, stepUranus += 1;
       } else if (Q9 === 2) {
-        stepUranus += 1;
-      } else if (Q9 === 3) {
-        stepNeptune += 1;
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       }
 
 // similar weather, hotter, or colder?

@@ -43,7 +43,7 @@ $(document).ready(function() {
       } else if (Q3 === 2) {
         stepNeptune, stepUranus, stepEarth, stepMars, stepVenus, stepMercury += 1;
       }
-
+// do you like rings?
       if (Q4 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q4 === 2) {
@@ -51,7 +51,7 @@ $(document).ready(function() {
       } else if (Q4 === 3) {
         stepNeptune += 1;
       }
-
+// do you like big planets?
       if (Q5 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q5 === 2) {
@@ -59,7 +59,7 @@ $(document).ready(function() {
       } else if (Q5 === 3) {
         stepNeptune += 1;
       }
-
+// do you like long days?
       if (Q6 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q6 === 2) {
@@ -67,7 +67,7 @@ $(document).ready(function() {
       } else if (Q6 === 3) {
         stepNeptune += 1;
       }
-
+// do you like living close to main asteroid belt?
       if (Q7 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q7 === 2) {
@@ -75,7 +75,7 @@ $(document).ready(function() {
       } else if (Q7 === 3) {
         stepNeptune += 1;
       }
-
+// do you want to stay close to earth?
       if (Q8 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q8 === 2) {
@@ -83,7 +83,7 @@ $(document).ready(function() {
       } else if (Q8 === 3) {
         stepNeptune += 1;
       }
-
+// close to kuiper belt?
       if (Q9 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q9 === 2) {
@@ -91,7 +91,7 @@ $(document).ready(function() {
       } else if (Q9 === 3) {
         stepNeptune += 1;
       }
-
+// similar weather, hotter, or colder?
       if (Q10 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q10 === 2) {

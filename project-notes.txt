@@ -1,0 +1,83 @@
+where do you want to live?
+
+planets options:
+mercury
+venus
+earth
+mars
+jupiter
+saturn
+uranus
+neptune
+
+possible additions:
+sun
+ceres
+pluto
+makemake
+haumea
+eris
+
+things to consider:
+
+do you prefer being close to the sun or far away?
+far jupiter
+far saturn
+far uranus
+far neptune
+
+close mercury
+close venus
+close earth
+close mars
+
+do you like solid planets or gaseous ones?
+gaseous jupiter
+gaseous saturn
+gaseous uranus
+gaseous neptune
+
+solid mercury
+solid venus
+solid earth
+solid mars
+
+
+do you feel about moons?
+really like jupiter
+really like saturn
+
+so-so neptune
+so-so uranus
+so-so earth
+so-so mars
+so-so venus
+so-so mercury
+
+
+do you like rings?
+yes neptune
+yes saturn
+yes uranus
+yes jupiter
+
+no earth
+no mars
+no venus
+no mercury
+
+do you like big planets or small planets?
+big venus
+big earth
+big jupiter
+big saturn
+
+small mercury
+small mars
+small uranus
+small neptune
+
+do you like stormy weather?
+
+
+do you like long days?

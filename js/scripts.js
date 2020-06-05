@@ -32,7 +32,7 @@ $(document).ready(function() {
       }
 // gas or rock giant?
       if (Q2 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepMercury, stepVenus,  stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q2 === 2) {
         stepUranus += 1;
       } else if (Q2 === 3) {

@@ -108,7 +108,7 @@ $(document).ready(function() {
         else if (stepMars >= stepVenus && stepMars >= stepEarth && stepMars >= stepMercury && stepMars >= stepJupiter && stepMars >= stepSaturn && stepMars >= stepUranus && stepMars >= stepNeptune) {
         $("#mars").show();
 
-        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+        else if (stepJupiter >= stepVenus && stepJupiter >= stepEarth && stepJupiter >= stepMars && stepJupiter >= stepMercury && stepJupiter >= stepSaturn && stepJupiter >= stepUranus && stepJupiter >= stepNeptune) {
           $("#jupiter").show();
 
         else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {

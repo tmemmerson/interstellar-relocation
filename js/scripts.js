@@ -24,14 +24,13 @@ $(document).ready(function() {
       let stepUranus = 0;
       let stepNeptune = 0;
 
+// close to the sun?
       if (Q1 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepMercury, stepVenus += 1;
       } else if (Q1 === 2) {
-        stepUranus += 1;
-      } else if (Q1 === 3) {
-        stepNeptune += 1;
+        stepEarth, stepMars, stepJupiter, stepSaturn, stepUranus, stepNeptune += 1;
       }
-
+// gas or rock giant?
       if (Q2 === 1) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q2 === 2) {

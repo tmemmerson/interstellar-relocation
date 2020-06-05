@@ -68,11 +68,9 @@ $(document).ready(function() {
 
 // do you like living close to main asteroid belt?
       if (Q7 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepMars, stepJupiter += 1;
       } else if (Q7 === 2) {
-        stepUranus += 1;
-      } else if (Q7 === 3) {
-        stepNeptune += 1;
+        stepUranus, stepMercury, stepVenus, stepEarth, stepNeptune, stepSaturn += 1;
       }
 
 // do you want to stay close to earth?

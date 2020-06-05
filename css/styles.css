@@ -21,3 +21,63 @@
   font-size: 40px;
   text-align: center;
 }
+
+.box-danger {
+  background-color: #f14668;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #000000;
+  display: block;
+  padding: 1.25rem;
+}
+
+
+.box-warning {
+  background-color: #ffdd57;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #000000;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box-success {
+  background-color: #607a69;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #ffffff;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box-info {
+  background-color: #3298dc;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #ffffff;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box-primarily {
+  background-color: #00d1b2;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #000000;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box-linking {
+  background-color: #2366d1;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  color: #ffffff;
+  display: block;
+  padding: 1.25rem;
+}
+
+element {
+  background: rgba(red, green, blue, alpha);
+  opacity: 0.5;
+}

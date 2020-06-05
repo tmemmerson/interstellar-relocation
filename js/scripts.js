@@ -15,105 +15,94 @@ $(document).ready(function() {
     if (!Q1 || !Q2 || !Q3 || !Q4 || !Q5 || !Q6 || !Q7 || !Q8 || !Q9 || !Q10) {
       alert("Answer all the questions!");
     } else {
-      let mercury = 0;
-      let venus = 0;
-      let earth = 0;
-      let mars = 0;
-      let jupiter = 0;
-      let saturn = 0;
-      let uranus = 0;
-      let neptune = 0;
+      let stepMercury = 0;
+      let stepVenus = 0;
+      let stepEarth = 0;
+      let stepMars = 0;
+      let stepJupiter = 0;
+      let stepSaturn = 0;
+      let stepUranus = 0;
+      let stepNeptune = 0;
 
       if (Q1 === 1) {
-        raven += 1;
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q1 === 2) {
-        gryff += 1;
+        stepUranus += 1;
       } else if (Q1 === 3) {
-        huff += 1;
-      } else if (Q1 === 4) {
-        slyth += 1;
+        stepNeptune += 1;
       }
+
       if (Q2 === 1) {
-        huff += 1;
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q2 === 2) {
-        gryff += 1;
+        stepUranus += 1;
       } else if (Q2 === 3) {
-        raven += 1;
-      } else if (Q2 === 4) {
-        slyth += 1;
+        stepNeptune += 1;
       }
+
       if (Q3 === 1) {
-        raven += 1;
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       } else if (Q3 === 2) {
-        slyth += 1;
+        stepUranus += 1;
       } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepNeptune += 1;
+      }
+
       if (Q4 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q4 === 2) {
+        stepUranus += 1;
+      } else if (Q4 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q5 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q5 === 2) {
+        stepUranus += 1;
+      } else if (Q5 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q6 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q6 === 2) {
+        stepUranus += 1;
+      } else if (Q6 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q7 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q7 === 2) {
+        stepUranus += 1;
+      } else if (Q7 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q8 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q8 === 2) {
+        stepUranus += 1;
+      } else if (Q8 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q9 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q9 === 2) {
+        stepUranus += 1;
+      } else if (Q9 === 3) {
+        stepNeptune += 1;
+      }
+
       if (Q10 === 1) {
-        raven += 1;
-      } else if (Q3 === 2) {
-        slyth += 1;
-      } else if (Q3 === 3) {
-        huff += 1;
-      } else if (Q3 === 4) {
-        gryff += 1;
-        
+        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+      } else if (Q10 === 2) {
+        stepUranus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune += 1;
+      }
               
       }
       if (gryff >= huff && gryff >= slyth && gryff >= raven) {

@@ -89,11 +89,11 @@ $(document).ready(function() {
 
 // similar weather, hotter, or colder?
       if (Q10 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepEarth, stepMars += 1;
       } else if (Q10 === 2) {
-        stepUranus += 1;
+        stepMercury, stepVenus += 1;
       } else if (Q10 === 3) {
-        stepNeptune += 1;
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
 
       if (gryff >= huff && gryff >= slyth && gryff >= raven) {

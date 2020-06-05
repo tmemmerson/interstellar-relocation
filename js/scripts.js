@@ -96,17 +96,31 @@ $(document).ready(function() {
         stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
 
-      if (gryff >= huff && gryff >= slyth && gryff >= raven) {
-        $("#gryffindor").show();
-      } else if (raven >= huff && raven >= slyth) {
-        $("#ravenclaw").show();
-      } else if (slyth >= huff) {
-        $("#slytherin").show();
-      } else {
-        $("#hufflepuff").show();
+      if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+        $("#mercury").show();
+
+      } else if (stepVenus >= stepMercury && stepVenus >= stepEarth && stepVenus >= stepMars && stepVenus >= stepJupiter && stepVenus >= stepSaturn && stepVenus >= stepUranus && stepVenus >= stepNeptune) {
+        $("#venus").show();
+
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+          $("#earth").show();
+
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+        $("#mars").show();
+
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+          $("#jupiter").show();
+
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+          $("#saturn").show();
+        
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+          $("#uranus").show();
+
+        else if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
+          $("#neptune").show();
+
       };
-    }
-  });
 
   $("button#reset").click(function() {
     $("#mercury").hide();

@@ -37,13 +37,11 @@ $(document).ready(function() {
         stepMercury, stepVenus, stepEarth, stepMars += 1;
       }
 
-      
+// how do you feel about moons?      
       if (Q3 === 1) {
-        stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
+        stepJupiter, stepSaturn += 1;
       } else if (Q3 === 2) {
-        stepUranus += 1;
-      } else if (Q3 === 3) {
-        stepNeptune += 1;
+        stepNeptune, stepUranus, stepEarth, stepMars, stepVenus, stepMercury += 1;
       }
 
       if (Q4 === 1) {

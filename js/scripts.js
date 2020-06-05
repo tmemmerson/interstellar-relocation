@@ -23,71 +23,58 @@ $(document).ready(function() {
       let stepSaturn = 0;
       let stepUranus = 0;
       let stepNeptune = 0;
-
-// close to the sun?
       if (Q1 === 1) {
         stepMercury, stepVenus += 1;
       } else if (Q1 === 2) {
         stepEarth, stepMars, stepJupiter, stepSaturn, stepUranus, stepNeptune += 1;
       }
-
-// gas or rock giant?
       if (Q2 === 1) {
         stepUranus, stepNeptune, stepJupiter, stepSaturn += 1;
       } else if (Q2 === 2) {
         stepMercury, stepVenus, stepEarth, stepMars += 1;
       }
-
-// how do you feel about moons?      
       if (Q3 === 1) {
         stepJupiter, stepSaturn += 1;
       } else if (Q3 === 2) {
         stepNeptune, stepUranus, stepEarth, stepMars, stepVenus, stepMercury += 1;
       }
 
-// do you like rings?
       if (Q4 === 1) {
         stepNeptune, stepUranus, stepJupiter, stepSaturn += 1;
       } else if (Q4 === 2) {
         stepEarth, stepMars, stepVenus, stepMercury += 1;
       } 
 
-// do you like big planets?
       if (Q5 === 1) {
         stepVenus, stepEarth, stepJupiter, stepSaturn += 1;
       } else if (Q5 === 2) {
         stepUranus, stepNeptune, stepMars, stepMercury += 1;
       } 
 
-// do you like long days?
       if (Q6 === 1) {
         stepMercury, stepVenus += 1;
       } else if (Q6 === 2) {
         stepUranus, stepEarth, stepMars, stepJupiter, stepSaturn, stepNeptune += 1;
       } 
 
-// do you like living close to main asteroid belt?
       if (Q7 === 1) {
         stepMars, stepJupiter += 1;
       } else if (Q7 === 2) {
         stepUranus, stepMercury, stepVenus, stepEarth, stepNeptune, stepSaturn += 1;
       }
 
-// do you want to stay close to earth?
       if (Q8 === 1) {
         stepVenus, stepEarth, stepMars += 1;
       } else if (Q8 === 2) {
         stepUranus, stepJupiter, stepNeptune, stepSaturn, stepMercury += 1;
       }
 
-// close to kuiper belt?
       if (Q9 === 1) {
         stepNeptune, stepUranus += 1;
       } else if (Q9 === 2) {
         stepMercury, stepVenus, stepEarth, stepMars, stepJupiter, stepSaturn += 1;
       }
 
-// similar weather, hotter, or colder?
       if (Q10 === 1) {
         stepEarth, stepMars += 1;
       } else if (Q10 === 2) {
@@ -101,27 +88,26 @@ $(document).ready(function() {
 
       } else if (stepVenus >= stepMercury && stepVenus >= stepEarth && stepVenus >= stepMars && stepVenus >= stepJupiter && stepVenus >= stepSaturn && stepVenus >= stepUranus && stepVenus >= stepNeptune) {
         $("#venus").show();
-
+      }
         else if (stepEarth >= stepVenus && stepEarth >= stepMercury && stepEarth >= stepMars && stepEarth >= stepJupiter && stepEarth >= stepSaturn && stepEarth >= stepUranus && stepEarth >= stepNeptune) {
           $("#earth").show();
-
+      }
         else if (stepMars >= stepVenus && stepMars >= stepEarth && stepMars >= stepMercury && stepMars >= stepJupiter && stepMars >= stepSaturn && stepMars >= stepUranus && stepMars >= stepNeptune) {
         $("#mars").show();
-
+      }
         else if (stepJupiter >= stepVenus && stepJupiter >= stepEarth && stepJupiter >= stepMars && stepJupiter >= stepMercury && stepJupiter >= stepSaturn && stepJupiter >= stepUranus && stepJupiter >= stepNeptune) {
           $("#jupiter").show();
-
+      }
         else if (stepSaturn >= stepVenus && stepSaturn >= stepEarth && stepSaturn >= stepMars && stepSaturn >= stepJupiter && stepSaturn >= stepMercury && stepSaturn >= stepUranus && stepSaturn >= stepNeptune) {
           $("#saturn").show();
-        
+      }  
         else if (stepUranus >= stepVenus && stepUranus >= stepEarth && stepUranus >= stepMars && stepUranus >= stepJupiter && stepUranus >= stepSaturn && stepUranus >= stepMercury && stepUranus >= stepNeptune) {
           $("#uranus").show();
-
+      }
         else if (stepNeptune >= stepVenus && stepNeptune >= stepEarth && stepNeptune >= stepMars && stepNeptune >= stepJupiter && stepNeptune >= stepSaturn && stepNeptune >= stepUranus && stepNeptune >= stepMercury) {
           $("#neptune").show();
-
       };
-
+    };
 
   $("button#reset").click(function() {
     $("#mercury").hide();
@@ -132,5 +118,6 @@ $(document).ready(function() {
     $("#saturn").hide();
     $("#uranus").hide();
     $("#neptune").hide();
-  });
-});
+  })
+  })
+})

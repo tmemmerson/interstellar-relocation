@@ -1,7 +1,4 @@
-img {
-  float: left;
-  max-height: 300px;
-}
+
 
 #mercury, #venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune {
   display: none;

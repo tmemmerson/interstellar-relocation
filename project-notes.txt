@@ -136,4 +136,44 @@ cold uranus
 cold neptune
 
 
+---------------------
+positive += count
+---------------------
 
+mercury: q6 q1   
+venus:   q8 q6 q5 q1
+earth:   q8 q5
+mars:    q8 q7
+jupiter: q7 q5 q4 q3 q2
+saturn:  q5 q4 q3 q2
+uranus:  q9 q4 q2
+neptune: q9 q4 q2
+
+q10 considered equitable
+
+q11 do you like super slow rotating planets?
+venus +/-1
+yes/no
+
+q12 would you like to have the largest volcano in the galaxy in your backyard?
+mars +/-2
+venus +/-1
+3 part response
+
+q13 Do you like your planet super tilted on its axis?
+i love a tilted axis
+no thanks
+uranus +/-2-1
+
+q14 Do you like backspin on your planets?
+love it
+no way
+venus +/-2-1
+
+q15 Would you like a planet that has organic life?
+yes
+no
+earth +/-2-1
+
+q16 would you rather travel in a spaceship or riding on a giant dragon?
+random stuff

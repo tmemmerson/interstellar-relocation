@@ -57,6 +57,8 @@ _Questions, comments and concerns can be directed to the author [Tristan Emmerso
 
 _**This project was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
 
+_**Image Work:** [Adobe Photoshop](https://adobe.com/) (v2020)_
+
   
 
 ## **License**

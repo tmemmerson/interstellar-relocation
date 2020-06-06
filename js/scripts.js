@@ -82,6 +82,55 @@ $(document).ready(function() {
       } else if (Q10 === 3) {
         stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
+      
+      /*-----------------------------------------------------------------------------------*/
+      if (Q11 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
+
+      if (Q12 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
+
+      if (Q13 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
+
+      if (Q14 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
+
+      if (Q15 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
+
+      if (Q16 === 1) {
+        stepEarth, stepMars += 1;
+      } else if (Q10 === 2) {
+        stepMercury, stepVenus += 1;
+      } else if (Q10 === 3) {
+        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+      }
 
       if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
         $("#mercury").show();

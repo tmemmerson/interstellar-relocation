@@ -83,7 +83,7 @@ $(document).ready(function() {
         stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
       
-      /*-----------------------------------------------------------------------------------*/
+/*
       if (Q11 === 1) {
         stepEarth, stepMars += 1;
       } else if (Q10 === 2) {
@@ -131,7 +131,7 @@ $(document).ready(function() {
       } else if (Q10 === 3) {
         stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
-
+*/
       if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
         $("#mercury").show();
 

@@ -30,7 +30,7 @@ _This idea for this project is a passionate one rooted in my children's love of 
 *  _(if modifying for personal use) **FOR WINDOWS:** download/install Git for Windows [here](https://gitforwindows.org/)_ (v2.62.2 or newer)
 
 
-*  _(if inclined to modifying for personal use) repository is available [here](https://github.com/tmemmerson/triangle.git)_
+*  _(if inclined to modifying for personal use) repository is available [here](https://github.com/tmemmerson/interstellar-relocation.git)_
 
 
   

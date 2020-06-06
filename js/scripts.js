@@ -11,8 +11,14 @@ $(document).ready(function() {
     const Q8 = parseInt($("input:radio[name=question8]:checked").val());
     const Q9 = parseInt($("input:radio[name=question9]:checked").val());
     const Q10 = parseInt($("input:radio[name=question10]:checked").val());
+    const Q11 = parseInt($("input:radio[name=question11]:checked").val());
+    const Q12 = parseInt($("input:radio[name=question12]:checked").val());
+    const Q13 = parseInt($("input:radio[name=question13]:checked").val());
+    const Q14 = parseInt($("input:radio[name=question14]:checked").val());
+    const Q15 = parseInt($("input:radio[name=question15]:checked").val());
+    const Q16 = parseInt($("input:radio[name=question16]:checked").val());
     
-    if (!Q1 || !Q2 || !Q3 || !Q4 || !Q5 || !Q6 || !Q7 || !Q8 || !Q9 || !Q10) {
+    if (!Q1 || !Q2 || !Q3 || !Q4 || !Q5 || !Q6 || !Q7 || !Q8 || !Q9 || !Q10|| !Q11|| !Q12|| !Q13|| !Q14|| !Q15|| !Q16) {
       alert("Answer all the questions!");
     } else {
       let stepMercury = 0;
@@ -85,39 +91,39 @@ $(document).ready(function() {
       
       if (Q11 === 1) {
         stepVenus += 2;
-      } else if (Q10 === 2) {
+      } else if (Q11 === 2) {
         stepVenus += -1;
       }
 
       if (Q12 === 1) {
         stepMars += 3;
-      } else if (Q10 === 2) {
+      } else if (Q12 === 2) {
         stepVenus += 2;
-      } else if (Q10 === 3) {
+      } else if (Q12 === 3) {
         stepMars, stepVenus += -2;
       }
 
       if (Q13 === 1) {
         stepUranus += 3;
-      } else if (Q10 === 2) {
+      } else if (Q13 === 2) {
         stepUranus += -2;
       }
 
       if (Q14 === 1) {
         stepVenus += 2;
-      } else if (Q10 === 2) {
+      } else if (Q14 === 2) {
         stepVenus += -1;
       }
 
       if (Q15 === 1) {
         stepEarth += 3;
-      } else if (Q10 === 2) {
+      } else if (Q15 === 2) {
         stepEarth += -2;
       }
 
       if (Q16 === 1) {
         stepEarth, stepMars, stepNeptune, stepJupiter += 1;
-      } else if (Q10 === 2) {
+      } else if (Q16 === 2) {
         stepMercury, stepVenus, stepSaturn, stepUranus += 1;
       }
 

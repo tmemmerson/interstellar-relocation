@@ -83,53 +83,42 @@ $(document).ready(function() {
         stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
       }
       
-      /*-----------------------------------------------------------------------------------*/
       if (Q11 === 1) {
-        stepEarth, stepMars += 1;
+        stepVenus += 2;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
-      } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepVenus += -1;
       }
 
       if (Q12 === 1) {
-        stepEarth, stepMars += 1;
+        stepMars += 3;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
+        stepVenus += 2;
       } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepMars, stepVenus += -2;
       }
 
       if (Q13 === 1) {
-        stepEarth, stepMars += 1;
+        stepUranus += 3;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
-      } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepUranus += -2;
       }
 
       if (Q14 === 1) {
-        stepEarth, stepMars += 1;
+        stepVenus += 2;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
-      } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepVenus += -1;
       }
 
       if (Q15 === 1) {
-        stepEarth, stepMars += 1;
+        stepEarth += 3;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
-      } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepEarth += -2;
       }
 
       if (Q16 === 1) {
-        stepEarth, stepMars += 1;
+        stepEarth, stepMars, stepNeptune, stepJupiter += 1;
       } else if (Q10 === 2) {
-        stepMercury, stepVenus += 1;
-      } else if (Q10 === 3) {
-        stepNeptune, stepJupiter, stepSaturn, stepUranus += 1;
+        stepMercury, stepVenus, stepSaturn, stepUranus += 1;
       }
 
       if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {

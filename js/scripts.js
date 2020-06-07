@@ -147,7 +147,7 @@ $(document).ready(function() {
       } else if (Q17 === 8) {
         stepEarth += 4;
       }
-
+      
       if (stepMercury >= stepVenus && stepMercury >= stepEarth && stepMercury >= stepMars && stepMercury >= stepJupiter && stepMercury >= stepSaturn && stepMercury >= stepUranus && stepMercury >= stepNeptune) {
         $("#mercury").show();
 

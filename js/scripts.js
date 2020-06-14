@@ -174,15 +174,15 @@ $(document).ready(function() {
       };
     };
 
-  $("button#reset").click(function() {
-    $("#mercury").hide();
-    $("#venus").hide();
-    $("#earth").hide();
-    $("#mars").hide();
-    $("#jupiter").hide();
-    $("#saturn").hide();
-    $("#uranus").hide();
-    $("#neptune").hide();
-  })
-  })
+    $("button#reset").click(function() {
+      $("#mercury").hide();
+      $("#venus").hide();
+      $("#earth").hide();
+      $("#mars").hide();
+      $("#jupiter").hide();
+      $("#saturn").hide();
+      $("#uranus").hide();
+      $("#neptune").hide();
+  });
+  });
 })

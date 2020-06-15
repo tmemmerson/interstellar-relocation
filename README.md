@@ -28,7 +28,11 @@ _This idea for this project is a passionate one rooted in my children's love of 
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github.gif "Cloning from Github within VSCode")
 
-* **Select the local directory folder where you would like to add this repository**  
+* **Select the local directory folder where you would like to add this repository**
+
+* **double-click index.html to open in preferred browser for viewing**
+
+* **to edit project, select "open folder/open folder in new window" after you have successfully cloned the repo to your local machine.**
 
 ## **Known Bugs**
 

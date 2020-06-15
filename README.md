@@ -1,59 +1,44 @@
 
-# _Interstellar Home Hunting_
-
-  
+# _Interstellar Relocation_
 
 #### _Find your ideal place in the universe to rest your head_	
 
-  
-
 #### By _**Tristan Emmerson**_
-
-  
 
 ## **Description**
 
-  
-
 _This idea for this project is a passionate one rooted in my children's love of outer space. The goal being, to create a thorough questionaire about preferences that will generate an **ideal planet match** based on the user input._
 
-
-
 ## **Setup/Installation Requirements**
-
-  
 
 *  _Recommended browser for everything in your life, not just this project. Google Chrome Browser [here](https://www.google.com/chrome/)_.
 
 *  _Project Web page available for viewing [here](https://tmemmerson.github.io/interstellar-relocation/)_
 
-*  _(if modifying for personal use) **FOR WINDOWS:** download/install Git for Windows [here](https://gitforwindows.org/)_ (v2.62.2 or newer)
+*  **If modifying for personal use** for windows: download/install Git for Windows [here](https://gitforwindows.org/)_ (v2.62.2 or newer)
 
 
-*  _**if inclined to modifying for personal use** repository is available [here](https://github.com/tmemmerson/triangle.git) for instructions on cloning and modifying repo, please [visit this page for a walk-through](https://sudolphus.github.io/Mr-Robogers-Neighborhood/)_
+* **If inclined to modifying for personal use** repository is available [here](https://github.com/tmemmerson/interstellar-relocation.git)
 
+* **Copy URL as shown in graphic below**
 
-  
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif "How to clone repo")
+
+* **Paste copied URL into empty field after clicking "clone repository" button in VSCode**
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github.gif "Cloning from Github within VSCode")
+
+* **Select the local directory folder where you would like to add this repository**  
 
 ## **Known Bugs**
 
-  
-
 _No known bugs as of **06/05/2020**_
-
-  
 
 ## **Support and contact details**
 
-  
-
 _Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)_
 
-  
-
 ## **Technologies Used**
-
-  
 
 _**This project was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
 
